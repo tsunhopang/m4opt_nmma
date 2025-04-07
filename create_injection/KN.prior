@@ -1,0 +1,8 @@
+alpha = 0.
+ratio_zeta = Uniform(name='ratio_zeta', minimum=0.0, maximum=1.0)
+ratio_epsilon = LogUniform(name='ratio_epsilon', minimum=1e-7, maximum=0.5)
+vej_max = Uniform(name='vej_max', minimum=0.2, maximum=0.4, latex_label='$v_{\\rm{ej, max}}$') 
+vej_min = Uniform(name='vej_min', minimum=0.1, maximum=0.2, latex_label='$v_{\\rm{ej, min}}$') 
+vej_frac = Uniform(name='vej_frac', minimum=0., maximum=1, latex_label='$v_{\\rm{ej, frac}}$')
+log10_kappa_low_vej = Uniform(name='log10_kappa_low_vej', minimum=-1., maximum=1., latex_label='$\\log_{10}\kappa_{\\rm{low}}$')
+log10_kappa_high_vej = Uniform(name='log10_kappa_high_vej', minimum=-1., maximum=1., latex_label='$\\log_{10}\kappa_{\\rm{high}}$')
