@@ -1,0 +1,231 @@
+13:31 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+13:31 INFO    : Analysis priors:
+13:31 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+13:31 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+13:31 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+13:31 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+13:31 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+13:31 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+13:31 INFO    : timeshift=0.0
+13:31 INFO    : luminosity_distance=107.81741
+13:31 INFO    : Ebv=0.0
+13:31 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+13:31 INFO    : Analysis likelihood noise evidence: 0.0
+13:31 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+13:31 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+13:31 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+13:31 INFO    : Using sampler Ultranest with kwargs {'resume': 'overwrite', 'show_status': True, 'num_live_points': 512, 'wrapped_params': None, 'derived_param_names': [], 'run_num': None, 'vectorized': False, 'num_test_samples': 2, 'draw_multiple': True, 'num_bootstraps': 30, 'update_interval_iter': None, 'update_interval_ncall': None, 'log_interval': None, 'dlogz': None, 'max_iters': None, 'update_interval_volume_fraction': 0.2, 'viz_callback': <bound method Ultranest._viz_callback of <bilby.core.sampler.ultranest.Ultranest object at 0x32ed59590>>, 'dKL': 0.5, 'frac_remain': 0.01, 'Lepsilon': 0.001, 'min_ess': 400, 'max_ncalls': None, 'max_num_improvement_loops': -1, 'min_num_live_points': 400, 'cluster_num_live_points': 40, 'step_sampler': None}
+13:31 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+13:31 INFO    : Using temporary file /var/folders/_c/4pcdzpcn129b6l289rj6zny40000gp/T/tmpv3ajxl3n
+14:37 INFO    : Run interrupted by signal 2: checkpoint and exit on 77
+14:37 INFO    : Overwriting fits_lim_of_26/ultra_m4opt_test/ with /var/folders/_c/4pcdzpcn129b6l289rj6zny40000gp/T/tmpv3ajxl3n/
+14:38 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+14:38 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+14:38 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+14:38 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+14:38 INFO    : Analysis priors:
+14:38 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+14:38 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+14:38 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+14:38 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+14:38 INFO    : timeshift=0.0
+14:38 INFO    : luminosity_distance=107.81741
+14:38 INFO    : Ebv=0.0
+14:38 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+14:38 INFO    : Analysis likelihood noise evidence: 0.0
+14:38 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+14:38 INFO    : Using sampler Ultranest with kwargs {'resume': 'overwrite', 'show_status': True, 'num_live_points': 512, 'wrapped_params': None, 'derived_param_names': [], 'run_num': None, 'vectorized': False, 'num_test_samples': 2, 'draw_multiple': True, 'num_bootstraps': 30, 'update_interval_iter': None, 'update_interval_ncall': None, 'log_interval': None, 'dlogz': None, 'max_iters': None, 'update_interval_volume_fraction': 0.2, 'viz_callback': <bound method Ultranest._viz_callback of <bilby.core.sampler.ultranest.Ultranest object at 0x335ffa650>>, 'dKL': 0.5, 'frac_remain': 0.01, 'Lepsilon': 0.001, 'min_ess': 400, 'max_ncalls': None, 'max_num_improvement_loops': -1, 'min_num_live_points': 400, 'cluster_num_live_points': 40, 'step_sampler': None}
+14:38 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+14:38 INFO    : Temporary directory incompatible with MPI, will run in original directory
+14:38 INFO    : Using output file fits_lim_of_26/ultra_m4opt_test/
+14:38 INFO    : Analysis priors:
+14:38 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+14:38 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+14:38 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+14:38 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+14:38 INFO    : timeshift=0.0
+14:38 INFO    : luminosity_distance=107.81741
+14:38 INFO    : Ebv=0.0
+14:38 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+14:38 INFO    : Analysis likelihood noise evidence: 0.0
+14:38 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+14:38 INFO    : Using sampler Ultranest with kwargs {'resume': 'overwrite', 'show_status': True, 'num_live_points': 512, 'wrapped_params': None, 'derived_param_names': [], 'run_num': None, 'vectorized': False, 'num_test_samples': 2, 'draw_multiple': True, 'num_bootstraps': 30, 'update_interval_iter': None, 'update_interval_ncall': None, 'log_interval': None, 'dlogz': None, 'max_iters': None, 'update_interval_volume_fraction': 0.2, 'viz_callback': <bound method Ultranest._viz_callback of <bilby.core.sampler.ultranest.Ultranest object at 0x333930d90>>, 'dKL': 0.5, 'frac_remain': 0.01, 'Lepsilon': 0.001, 'min_ess': 400, 'max_ncalls': None, 'max_num_improvement_loops': -1, 'min_num_live_points': 400, 'cluster_num_live_points': 40, 'step_sampler': None}
+14:38 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+14:38 INFO    : Temporary directory incompatible with MPI, will run in original directory
+14:38 INFO    : Using output file fits_lim_of_26/ultra_m4opt_test/
+14:38 INFO    : Analysis priors:
+14:38 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+14:38 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+14:38 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+14:38 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+14:38 INFO    : timeshift=0.0
+14:38 INFO    : luminosity_distance=107.81741
+14:38 INFO    : Ebv=0.0
+14:38 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+14:38 INFO    : Analysis likelihood noise evidence: 0.0
+14:38 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+14:38 INFO    : Using sampler Ultranest with kwargs {'resume': 'overwrite', 'show_status': True, 'num_live_points': 512, 'wrapped_params': None, 'derived_param_names': [], 'run_num': None, 'vectorized': False, 'num_test_samples': 2, 'draw_multiple': True, 'num_bootstraps': 30, 'update_interval_iter': None, 'update_interval_ncall': None, 'log_interval': None, 'dlogz': None, 'max_iters': None, 'update_interval_volume_fraction': 0.2, 'viz_callback': <bound method Ultranest._viz_callback of <bilby.core.sampler.ultranest.Ultranest object at 0x338044fd0>>, 'dKL': 0.5, 'frac_remain': 0.01, 'Lepsilon': 0.001, 'min_ess': 400, 'max_ncalls': None, 'max_num_improvement_loops': -1, 'min_num_live_points': 400, 'cluster_num_live_points': 40, 'step_sampler': None}
+14:38 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+14:38 INFO    : Temporary directory incompatible with MPI, will run in original directory
+14:38 INFO    : Using output file fits_lim_of_26/ultra_m4opt_test/
+14:38 INFO    : Analysis priors:
+14:38 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+14:38 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+14:38 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+14:38 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+14:38 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+14:38 INFO    : timeshift=0.0
+14:38 INFO    : luminosity_distance=107.81741
+14:38 INFO    : Ebv=0.0
+14:38 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+14:38 INFO    : Analysis likelihood noise evidence: 0.0
+14:38 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+14:38 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+14:38 INFO    : Using sampler Ultranest with kwargs {'resume': 'overwrite', 'show_status': True, 'num_live_points': 512, 'wrapped_params': None, 'derived_param_names': [], 'run_num': None, 'vectorized': False, 'num_test_samples': 2, 'draw_multiple': True, 'num_bootstraps': 30, 'update_interval_iter': None, 'update_interval_ncall': None, 'log_interval': None, 'dlogz': None, 'max_iters': None, 'update_interval_volume_fraction': 0.2, 'viz_callback': <bound method Ultranest._viz_callback of <bilby.core.sampler.ultranest.Ultranest object at 0x3341f4490>>, 'dKL': 0.5, 'frac_remain': 0.01, 'Lepsilon': 0.001, 'min_ess': 400, 'max_ncalls': None, 'max_num_improvement_loops': -1, 'min_num_live_points': 400, 'cluster_num_live_points': 40, 'step_sampler': None}
+14:38 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+14:38 INFO    : Temporary directory incompatible with MPI, will run in original directory
+14:38 INFO    : Using output file fits_lim_of_26/ultra_m4opt_test/
+14:58 INFO    : Sampling time: 1:25:57.613871
+14:58 INFO    : Sampling time: 1:25:57.634646
+14:58 INFO    : Sampling time: 1:25:57.688163
+14:58 INFO    : Sampling time: 1:25:57.645549
+14:58 INFO    : Summary of results:
+nsamples: 1306
+ln_noise_evidence:  0.000
+ln_evidence: -9.031 +/-  0.091
+ln_bayes_factor: -9.031 +/-  0.091
+
+14:58 INFO    : Writing samples file to /Users/pang0006/Projects/nmma_fork/UVEX_ULTRASAT_SWIFT/injection_analysis/fits_lim_of_26/m4opt_test_posterior_samples.dat
+14:58 INFO    : Summary of results:
+nsamples: 1352
+ln_noise_evidence:  0.000
+ln_evidence: -9.031 +/-  0.091
+ln_bayes_factor: -9.031 +/-  0.091
+
+14:58 INFO    : Summary of results:
+nsamples: 1381
+ln_noise_evidence:  0.000
+ln_evidence: -9.031 +/-  0.091
+ln_bayes_factor: -9.031 +/-  0.091
+
+15:07 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+15:07 INFO    : Analysis priors:
+15:07 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+15:07 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+15:07 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+15:07 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+15:07 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+15:07 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+15:07 INFO    : timeshift=0.0
+15:07 INFO    : luminosity_distance=107.81741
+15:07 INFO    : Ebv=0.0
+15:07 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+15:07 INFO    : Analysis likelihood noise evidence: 0.0
+15:07 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+15:07 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+15:07 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+15:07 WARNING : Supplied argument 'niter' not an argument of 'Ultranest', removing.
+15:07 INFO    : Using sampler Ultranest with kwargs {'resume': 'overwrite', 'show_status': True, 'num_live_points': 512, 'wrapped_params': None, 'derived_param_names': [], 'run_num': None, 'vectorized': False, 'num_test_samples': 2, 'draw_multiple': True, 'num_bootstraps': 30, 'update_interval_iter': None, 'update_interval_ncall': None, 'log_interval': None, 'dlogz': None, 'max_iters': None, 'update_interval_volume_fraction': 0.2, 'viz_callback': <bound method Ultranest._viz_callback of <bilby.core.sampler.ultranest.Ultranest object at 0x33654e4d0>>, 'dKL': 0.5, 'frac_remain': 0.01, 'Lepsilon': 0.001, 'min_ess': 400, 'max_ncalls': None, 'max_num_improvement_loops': -1, 'min_num_live_points': 400, 'cluster_num_live_points': 40, 'step_sampler': None}
+15:07 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+15:07 INFO    : Using temporary file /var/folders/_c/4pcdzpcn129b6l289rj6zny40000gp/T/tmpic18khtc
+15:08 INFO    : Overwriting fits_lim_of_26/ultra_m4opt_test/ with /var/folders/_c/4pcdzpcn129b6l289rj6zny40000gp/T/tmpic18khtc/
+15:08 INFO    : Sampling time: 1:25:57.937279
+15:08 INFO    : Summary of results:
+nsamples: 1322
+ln_noise_evidence:  0.000
+ln_evidence: -9.031 +/-  0.091
+ln_bayes_factor: -9.031 +/-  0.091
+
+15:08 INFO    : Writing samples file to /Users/pang0006/Projects/nmma_fork/UVEX_ULTRASAT_SWIFT/injection_analysis/fits_lim_of_26/m4opt_test_posterior_samples.dat
+15:08 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+15:08 INFO    : Analysis priors:
+15:08 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+15:08 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+15:08 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+15:08 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+15:08 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+15:08 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+15:08 INFO    : timeshift=0.0
+15:08 INFO    : luminosity_distance=107.81741
+15:08 INFO    : Ebv=0.0
+15:08 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+15:08 INFO    : Analysis likelihood noise evidence: 0.0
+15:08 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+15:08 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+15:08 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+15:08 WARNING : Supplied argument 'niter' not an argument of 'Ultranest', removing.
+15:08 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+15:08 WARNING : Using cached result
+15:08 INFO    : Summary of results:
+nsamples: 1322
+ln_noise_evidence:  0.000
+ln_evidence: -9.031 +/-  0.091
+ln_bayes_factor: -9.031 +/-  0.091
+
+15:08 INFO    : Writing samples file to /Users/pang0006/Projects/nmma_fork/UVEX_ULTRASAT_SWIFT/injection_analysis/fits_lim_of_26/m4opt_test_posterior_samples.dat
+15:10 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+15:10 INFO    : Analysis priors:
+15:10 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+15:10 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+15:10 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+15:10 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+15:10 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+15:10 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+15:10 INFO    : timeshift=0.0
+15:10 INFO    : luminosity_distance=107.81741
+15:10 INFO    : Ebv=0.0
+15:10 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+15:10 INFO    : Analysis likelihood noise evidence: 0.0
+15:10 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+15:10 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+15:10 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+15:10 WARNING : Supplied argument 'niter' not an argument of 'Ultranest', removing.
+15:10 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+15:10 WARNING : Using cached result
+15:10 INFO    : Summary of results:
+nsamples: 1322
+ln_noise_evidence:  0.000
+ln_evidence: -9.031 +/-  0.091
+ln_bayes_factor: -9.031 +/-  0.091
+
+15:10 INFO    : Writing samples file to /Users/pang0006/Projects/nmma_fork/UVEX_ULTRASAT_SWIFT/injection_analysis/fits_lim_of_26/m4opt_test_posterior_samples.dat
+15:10 INFO    : Running for label 'm4opt_test', output will be saved to 'fits_lim_of_26'
+15:10 INFO    : Analysis priors:
+15:10 INFO    : log10_mej=Uniform(minimum=-5.0, maximum=0.0, name='log10_mej_dyn', latex_label='$\\log_{10}M_{\\rm{ej}}$', unit=None, boundary=None)
+15:10 INFO    : vej_max=Uniform(minimum=0.2, maximum=0.4, name='vej_max', latex_label='$v_{\\rm{ej,max}}$', unit=None, boundary=None)
+15:10 INFO    : vej_min=Uniform(minimum=0.1, maximum=0.2, name='vej_min', latex_label='$v_{\\rm{ej,min}}$', unit=None, boundary=None)
+15:10 INFO    : vej_frac=Uniform(minimum=0.0, maximum=1, name='vej_frac', latex_label='$v_{\\rm{ej,frac}}$', unit=None, boundary=None)
+15:10 INFO    : log10_kappa_low_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_low_vej', latex_label='$\\log_{10}\\kappa_{\\rm{low}}$', unit=None, boundary=None)
+15:10 INFO    : log10_kappa_high_vej=Uniform(minimum=-1.0, maximum=1.0, name='log10_kappa_high_vej', latex_label='$\\log_{10}\\kappa_{\\rm{high}}$', unit=None, boundary=None)
+15:10 INFO    : timeshift=0.0
+15:10 INFO    : luminosity_distance=107.81741
+15:10 INFO    : Ebv=0.0
+15:10 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+15:10 INFO    : Analysis likelihood noise evidence: 0.0
+15:10 WARNING : Supplied argument 'seed' not an argument of 'Ultranest', removing.
+15:10 WARNING : Supplied argument 'queue_size' not an argument of 'Ultranest', removing.
+15:10 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Ultranest', removing.
+15:10 WARNING : Supplied argument 'niter' not an argument of 'Ultranest', removing.
+15:10 INFO    : Global meta data was removed from the result object for compatibility. Use the `BILBY_INCLUDE_GLOBAL_METADATA` environment variable to include it. This behaviour will be removed in a future release. For more details see: https://bilby-dev.github.io/bilby/faq.html#global-meta-data
+15:10 WARNING : Using cached result
+15:10 INFO    : Summary of results:
+nsamples: 1322
+ln_noise_evidence:  0.000
+ln_evidence: -9.031 +/-  0.091
+ln_bayes_factor: -9.031 +/-  0.091
+
+15:10 INFO    : Writing samples file to /Users/pang0006/Projects/nmma_fork/UVEX_ULTRASAT_SWIFT/injection_analysis/fits_lim_of_26/m4opt_test_posterior_samples.dat
